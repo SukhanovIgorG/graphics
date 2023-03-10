@@ -1,10 +1,11 @@
 import { createPublicKey } from "crypto";
-import { Defs } from "./defs";
+import { Defs } from "./Defs/Defs";
 
-export default function Svg(props: any) {
+import { svgProps } from "./svgProps.interface";
 
-  const { circles } = props
-  console.log('circles :>> ', circles);
+export const Svg = (props: any) => {
+
+  const { circles }: svgProps = props
 
   return (
     <>
