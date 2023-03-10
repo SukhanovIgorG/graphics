@@ -1,0 +1,13 @@
+.box {
+  overflow: hidden;
+  max-height: 900px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.viewer {
+  height: 100%;
+  width: 100%;
+}
